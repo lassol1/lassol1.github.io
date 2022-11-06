@@ -5,9 +5,9 @@ function paintBg () {
 
   const bgImage = document.createElement("img");
   
-  bgImage.src = `img/${chosenImage}`;
+  bgImage.src = `${chosenImage}`;
   
-  document.body.style.backgroundImage = `url(img/${chosenImage})`;
+  document.body.style.backgroundImage = `url(${chosenImage})`;
 }
 
 
